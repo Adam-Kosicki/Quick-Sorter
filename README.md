@@ -1,6 +1,8 @@
 # Quick-Sorter
 JAVA | algorithm, sorting
 
+QuickSorter is a Java class that provides methods to perform quick sort algorithm on an array list of comparable objects. This class includes four different pivot selection strategies for the quick sort algorithm: first element, random element, median of three random elements, and median of three elements.
+
 ## Pivot Strategies ##
 QuickSorter provides four different pivot selection strategies that can be used with the timedQuickSort method:
 
@@ -16,7 +18,7 @@ The MEDIAN_OF_THREE_RANDOM_ELEMENTS strategy selects three random elements in th
 MEDIAN_OF_THREE_ELEMENTS
 The MEDIAN_OF_THREE_ELEMENTS strategy selects the first, middle, and last elements in the array list, calculates the median of the three, and uses it as the pivot.
 
-### Usage ###
+## Usage ##
 
 In IDE terminal:
 1. javac Main.java QuickSorter.java
