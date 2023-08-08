@@ -1,6 +1,4 @@
 # Quick-Sorter
-JAVA | algorithm, sorting
-
 QuickSorter is a Java class that provides methods to perform quick sort algorithm on an array list of comparable objects. This class includes four different pivot selection strategies for the quick sort algorithm: first element, random element, median of three random elements, and median of three elements.
 
 ## Pivot Strategies ##
